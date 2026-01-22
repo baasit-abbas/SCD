@@ -5,8 +5,8 @@ const page = () => {
   return (
     <div className="bg-red-500 w-screen h-screen">
       <div className="m-auto w-[80%] h-full">
-        <div className="w-full h-[90px]">
-          <img className="w-full h-full" src={image1.src} alt="image" />
+        <div className="w-full h-[90px]" src={image1.src} alt="">
+          <img className="w-full h-full" src={image1.src} alt="" />
         </div>
         <div className="px-5 w-full h-[40px] bg-black">
           <nav className="w-full h-full">
