@@ -4,6 +4,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { CiLinkedin } from "react-icons/ci";
 import { FaPenRuler } from "react-icons/fa6";
 import { FaBriefcaseMedical } from "react-icons/fa";
+import { IoSettings } from "react-icons/io5";
 
 const page = () => {
   return (
@@ -40,7 +41,7 @@ const page = () => {
             <p>Dummy text</p>
           </div>
            <div className="box w-[30%] flex flex-col justify-center items-center gap-4 px-4 py-6 rounded-lg bg-white text-black">
-            <div className="icon text-4xl"><FaPenRuler /></div>
+            <div className="icon text-4xl"><IoSettings /></div>
             <p>Dummy text</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum tempora quo delectus non voluptatem dicta vitae minus molestias sequi unde, debitis et.</p>
             <p>Dummy text</p>
